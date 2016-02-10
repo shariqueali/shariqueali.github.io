@@ -1,0 +1,36 @@
+/* aside */
+aside#sidebar {
+    float: right;
+    margin-top: 1%;
+    padding: 0;
+    width: 30%;
+    background-color: #F9F9F9;
+    margin-bottom: 5%;
+}
+aside#sidebar h2 {
+    background: #439EC9;
+    color:#fff;
+    margin:0;
+    padding: 10px 0 10px 3%;
+}
+aside#sidebar h3{
+    margin:0;
+    padding: 10px 0 10px 3%;
+    color:#333;
+    background-color: #fff
+    
+}
+aside#sidebar p {
+    color:#333;
+}
+
+aside#sidebar div {
+    margin: 2% 0 4%;
+    padding-left: 3%;   
+}
+
+
+aside figure img {
+    width: 90%;
+}
+ 

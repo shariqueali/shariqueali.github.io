@@ -1,0 +1,100 @@
+body {
+    background-color: #eee;
+}
+
+/* main content areas*/
+#container{
+    max-width: 200px;
+    height: 0px;
+    margin: 0 auto;
+    
+}
+header#maintitle {
+    text-align: center;
+    background-image: url(../images/headerimage.jpg);
+    padding: 3% 0%;
+}
+/* altered padding so that more at top than at bottom */
+h1{
+    text-decoration: overline;  
+    font-size: 60px;
+    color: whitesmoke
+}
+
+nav{
+    width: 94%;
+    padding: 0% 3% 0% 3%;
+    background-color: #272727;
+}
+#content{
+    width: 45%;
+    margin: 1% 7% 3% 18%;
+    float: left;
+    background-color: #fff;
+}
+footer {
+    clear: both;
+    width: 94%;
+    padding: 3%;
+    background-color: #272727;
+    color: #fff;
+}
+footer a {
+    color: #fff;
+    text-decoration: underline;
+}
+/* navigation styles */
+    
+nav ul {
+    text-align: center;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 7% 18%;
+    white-space: nowrap;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color: #fff;
+    
+}
+
+nav ul li a:link {
+    color: #fff;
+}
+nav ul li a:visited {
+    color: #fff;
+}
+nav ul li a:active {
+    color:#ff0000;
+}
+nav ul li a:hover {
+    color:#2E44A6;
+}
+/* media screen sizes */
+@media all and (max-width: 768px) {
+    header {
+        text-align: center;
+    }
+    nav {
+        text-align: center;
+    }
+    #content {
+        width: 94%;
+        padding: 3%;
+        float: none;
+    }
+    nav ul li {
+        display: block;
+        width: 94%;
+    }
+    aside#sidebar {
+        width: 94%;
+        padding: 3%;
+        display: none;
+    }
+}

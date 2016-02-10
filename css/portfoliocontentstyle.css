@@ -1,0 +1,31 @@
+/* content */
+
+#content article header img {
+    width: 100%;
+    height: 450px;
+}
+#content article header h2 {
+    padding: 10px 0 10px 2%;
+    margin: 0;
+    background: #439EC9;
+    color: #fff;
+}
+#content article header h4 {
+    padding-left: 2%;
+    margin: 1% 0;
+}
+#content article > div {
+    padding: 0 2%;
+    margin: 1% 0;
+}
+#content article > div p, #content article > div li {
+    color: #999;
+}
+#content article > div p strong, #content article > div li strong {
+    color:#333;
+}
+#content hr {
+    background: #fff;
+        margin: 4% auto;
+    width: 90%;
+}
